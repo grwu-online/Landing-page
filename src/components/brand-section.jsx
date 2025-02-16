@@ -1,28 +1,23 @@
-import mensMartin from '../assets/mens-martin.png';
-import mcDonalds from '../assets/mcDonalds.png';
-import haat from "../assets/haat.png";
-import under from "../assets/under.png";
-
 export function BrandsSection() {
   const brands = [
     {
       name: "Mens Martin",
-      image: mensMartin,
+      image: "https://res.cloudinary.com/drsdtqcnp/image/upload/v1739739441/mens-martin_zddxr9.png",
       reelUrl: "https://www.instagram.com/reel/DCJVtmxvHzc/?igsh=Ym90b29pZmN2MWhn" // Add reel URL
     },
     {
       name: "Akansha Haat",
-      image: haat,
+      image: "https://res.cloudinary.com/drsdtqcnp/image/upload/v1739739440/haat_w9ce55.png",
       reelUrl: "https://www.instagram.com/reel/DCJUsOuPh_L/?igsh=bGxlY2FrbXB1OXlr" // Add reel URL
     },
     {
       name: "Under Armour",
-      image: under,
+      image: "https://res.cloudinary.com/drsdtqcnp/image/upload/v1739739440/under_xae0nf.png",
       reelUrl: "https://www.instagram.com/reel/DCZGyGfNXx8/?igsh=cWxuMmlxcGtjOXhsr" // Add reel URL
     },
     {
       name: "MC Donalds",
-      image: mcDonalds,
+      image: "https://res.cloudinary.com/drsdtqcnp/image/upload/v1739739440/mcDonalds_unsxkb.png",
       reelUrl: "https://example.com/reel/mc-donalds" // Add reel URL
     },
   ];
